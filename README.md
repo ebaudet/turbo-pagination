@@ -2,18 +2,9 @@
 
 The repository is just an example of colby.so [article](https://www.colby.so/posts/pagination-and-infinite-scrolling-with-hotwire).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby v3.0.1
 * Rails v7.0.2.4
 * Hotwire stack
-
-* System dependencies
-
-* Configuration
 
 * Database creation
 ```shell
@@ -25,6 +16,11 @@ rails db:migrate
 50.times do |n|
   Widget.create(name: "Widget ##{n}")
 end
+```
+
+* Launch it
+```shell
+bin/dev
 ```
 
 ### About
