@@ -4,7 +4,7 @@ import {useIntersection} from 'stimulus-use'
 // Connects to data-controller="autoclick"
 export default class extends Controller {
   options = {
-    threshold: 1
+    threshold: 0
   }
 
   connect() {
